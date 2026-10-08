@@ -5,8 +5,8 @@ class Aggiornamenti < Formula
   sha256 "c0db4b5f9ef94aaca0cf2c5ec9dde276218b9e5ee6dd2ea96d28e958e7bf59f7"
   license "MIT"
 
-  depends_on "mas"
   depends_on :macos
+  depends_on "mas"
   depends_on "terminal-notifier"
 
   def install
