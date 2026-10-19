@@ -1,8 +1,8 @@
 class Aggiornamenti < Formula
   desc "Local web page that finds outdated Mac apps and updates them silently"
   homepage "https://github.com/giuseppelupo1979/aggiornamenti-mac"
-  url "https://github.com/giuseppelupo1979/aggiornamenti-mac/archive/refs/tags/v1.10.0.tar.gz"
-  sha256 "a3645c1b8b245cfe4ca01e119e5a72c3e0ea722dd3896823ea423df6e56effa6"
+  url "https://github.com/giuseppelupo1979/aggiornamenti-mac/archive/refs/tags/v1.10.1.tar.gz"
+  sha256 "7b1f8f7a6235f657c12593f3bd1fefe54127005bc1a0bf1d0a3f8dd45cd0a062"
   license "MIT"
 
   depends_on :macos
