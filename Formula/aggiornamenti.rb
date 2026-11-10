@@ -15,7 +15,7 @@ class Aggiornamenti < Formula
     (bin/"aggiornamenti").write_env_script libexec/"aggiornamenti",
       AGGIORNAMENTI_HOME: opt_libexec,
       AGGIORNAMENTI_BIN:  opt_bin/"aggiornamenti",
-      PYTHON:             Formula["python@3.13"].opt_bin/"python3.13"
+      PYTHON:             formula_opt_bin("python@3.13")/"python3.13"
   end
 
   def caveats
